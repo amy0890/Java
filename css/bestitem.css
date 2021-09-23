@@ -1,0 +1,61 @@
+.item_wrap{
+    margin: 0 auto;
+    width: 1400px;
+    overflow: hidden;
+}
+.category_name{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.best_wrap {
+    display: flex;
+}
+.bestitem{
+    margin: 15px 15px;
+}
+.imgbox{
+    width: 320px;
+    position: relative;
+}
+.firstimg img{
+    width: 100%;
+    position: absolute;
+    display: block;
+}
+.changeimg img{
+    width: 100%;
+    position: absolute;
+}
+.item_infobox{
+    margin-top: 325px;
+}
+.star{
+    font-size: 12px;
+}
+.itemradius{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: lightgray;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: none;
+}
+.info_left{
+    float: left;
+}
+.itemradius>i{
+    font-size: 20px;
+    color: white;
+    margin-left: 9px;
+    margin-top: 9px;
+}
+.title_name{
+	font-size: 18px;
+	font-weight: bolder;
+}
+.review_cnt{
+	font-size: 12px;
+	color: gray;
+}

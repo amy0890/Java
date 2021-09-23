@@ -1,0 +1,26 @@
+.faq_table{
+    width: 800px;
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+.mypage_changed p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.faq_table td{
+    padding: 20px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.faq_info{
+    display: none;
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 15px;
+}

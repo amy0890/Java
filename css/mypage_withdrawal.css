@@ -1,0 +1,27 @@
+form[name=withdrawal_form] {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px 0;
+}
+
+form[name=withdrawal_form] input[type=password] {
+	width: 200px;
+	border:none;
+	border-bottom: 1px solid #ccc;
+	margin: 50px 0;
+}
+
+.withdrawal_pw_check {
+	color: red;
+}
+
+button.withdrawal_submit {
+	width: 100px;
+	height: 30px;
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 50px 0;
+}

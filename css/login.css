@@ -1,0 +1,109 @@
+:root {
+  --main-color: #705446;
+  --sub-color: #FDF4E3;
+  --main-text-color: #333;
+  --label-color:#888;
+  --login-form-interval: 400px;
+}
+
+aside.page_back { 
+  position: absolute; 
+  left:50px; 
+  top: 50px; 
+  text-shadow: -1px 0 #ffffff80, 0 1px #ffffff80, 1px 0 #ffffff80, 0 -1px #ffffff80;
+}
+aside.page_back i { 
+  font-size: 42px; 
+  cursor: pointer; 
+}
+
+section.login_scr_wrap { width: 1400px; margin: 0 auto; display: flex; }
+section.login_scr_wrap .img_area     { width: 700px; height: 100vh; }
+section.login_scr_wrap .img_area img { width: 100%; height: 100%; }
+
+/* ----- login_area line ----- */
+section.login_scr_wrap .login_area { width: 700px; height: 100vh; }
+section.login_scr_wrap .login_area .login_form {
+  width: 500px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 50px;
+}
+section.login_scr_wrap .login_area .login_form h1 {
+  text-align: center;
+  width: var(--login-form-interval);
+  font-size: 40px;
+  margin-bottom: 30px;
+  color:var(--main-text-color);
+}
+section.login_scr_wrap .login_area .login_form > h1::after{
+  content:"";
+  height: 6px;
+  width: var(--login-form-interval);
+  background: var(--main-text-color);
+  border-radius: 24px;
+  position: absolute;
+  display: block; 
+}
+section.login_scr_wrap .login_area .login_form .login_info {
+  color: var(--main-text-color);
+  width: var(--login-form-interval);
+  border: none;
+  border-bottom: 1px solid var(--label-color);
+  height: 50px;
+  position: relative;
+  margin-bottom: 20px;
+}
+section.login_scr_wrap .login_area .login_form .login_info i {
+  width: 20px;
+  margin-right: 10px;
+}
+section.login_scr_wrap .login_area .login_form .login_info input {
+  color: var(--text-color);
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 360px;
+  height: 25px;
+  padding-top: 25px;
+}
+section.login_scr_wrap .login_area .login_form .login_info label {
+  position: absolute;
+  left: 34px;
+  z-index: -1;
+  bottom: 0;
+  color: var(--label-color);
+}
+section.login_scr_wrap .login_area .login_form .login_info_check {
+	height: 80px;
+	padding-top: 20px;
+	display: none;
+}
+
+section.login_scr_wrap .login_area .login_form button {
+  margin-top: 30px;
+  color:#fefefe;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 24px;
+  width: var(--login-form-interval);
+  height: 50px;
+  font-size: 18px;
+}
+section.login_scr_wrap .login_area .login_form button.login_submit {
+  background-color: var(--main-color); 
+}
+section.login_scr_wrap .login_area .login_form button.login_submit:hover {
+  background-color: #5a4236;
+}
+section.login_scr_wrap .login_area .login_form button.sign_up {
+  background-color: var(--sub-color); color: var(--main-text-color); 
+}
+section.login_scr_wrap .login_area .login_form button.sign_up:hover {
+  background-color: #fcecc4; 
+}
+/* ----- login_area end ----- */

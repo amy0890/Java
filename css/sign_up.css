@@ -1,0 +1,169 @@
+:root {
+  --main-color: #705446;
+  --sub-color: #FDF4E3;
+  --main-text-color: #333;
+  --label-color:#888;
+  --area-interval: 700px;
+  --signUp-form-interval: 400px;
+}
+
+aside.page_back { 
+  position: fixed; 
+  left:50px; 
+  top: 50px; 
+  text-shadow: -1px 0 #ffffff80, 0 1px #ffffff80, 1px 0 #ffffff80, 0 -1px #ffffff80;
+}
+aside.page_back i { 
+  font-size: 42px; 
+  cursor: pointer; 
+}
+
+section.sign_up_scr_wrap { 
+  width: 1400px; 
+  margin: 0 auto; 
+  display: flex; 
+}
+
+/* ----- img_area line ----- */
+section.sign_up_scr_wrap .img_area     { 
+  width: var(--area-interval); 
+  height: 100vh; 
+  position: fixed;
+}
+section.sign_up_scr_wrap .img_area img { 
+  width: 100%; 
+  height: 100%; 
+}
+
+/* ----- sign_up_area line ----- */
+section.sign_up_scr_wrap .sign_up_area { 
+  width: var(--area-interval); 
+  height: 100vh; 
+  position: relative; 
+  left:var(--area-interval);
+}
+section.sign_up_scr_wrap .sign_up_area .sign_up_form {
+  width: 500px;
+  position: relative;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 50px;
+}
+section.sign_up_scr_wrap .sign_up_area .sign_up_form h1 {
+  text-align: center;
+  width: var(--signUp-form-interval);
+  font-size: 40px;
+  margin-bottom: 30px;
+  color:var(--main-text-color);
+}
+section.sign_up_scr_wrap .sign_up_area .sign_up_form > h1::after{
+  content:"";
+  height: 6px;
+  width: var(--signUp-form-interval);
+  background: var(--main-text-color);
+  border-radius: 24px;
+  position: absolute;
+  display: block; 
+}
+section.sign_up_scr_wrap .sign_up_area .sign_up_form .sign_up_info {
+  color: var(--main-text-color);
+  width: var(--signUp-form-interval);
+  border: none;
+  border-bottom: 1px solid var(--label-color);
+  height: 50px;
+  position: relative;
+  margin-bottom: 36px;
+}
+section.sign_up_scr_wrap .sign_up_area .sign_up_form .alert_msg {
+  color: red;
+  font-size: 0.8em;
+}
+section.sign_up_scr_wrap .sign_up_area .sign_up_form .sign_up_info:nth-child(5) {
+  margin-bottom: 12px;
+}
+section.sign_up_scr_wrap .sign_up_area .sign_up_form .sign_up_info input {
+  color: var(--text-color);
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 360px;
+  height: 25px;
+  padding-top: 25px;
+}
+section.sign_up_scr_wrap .sign_up_area .sign_up_form .sign_up_info label {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: var(--label-color);
+  cursor: text;
+  z-index: -1;
+}
+section.sign_up_scr_wrap .sign_up_area .sign_up_form button {
+  margin-top: 30px;
+  color:#fefefe;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 24px;
+  width: var(--signUp-form-interval);
+  height: 50px;
+  font-size: 18px;
+}
+section.sign_up_scr_wrap .sign_up_area .sign_up_form .duplication_check {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 100px;
+  height: 28px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 15px;
+  text-align: center;
+  line-height: 28px;
+}
+section.sign_up_scr_wrap .sign_up_area .sign_up_form .duplication_check:active {
+  background-color: #ddd;
+}
+section.sign_up_scr_wrap .sign_up_area .sign_up_form button.find_postcode {
+  color: white;
+  background-color: black;
+  width: 200px;
+  height: 40px;
+  margin-bottom: 12px;
+}
+/* ----- sign_up_area end ----- */
+
+/* ----- agree_area line ----- */
+section ul { list-style: none; }
+section ul li:first-child { padding-top: 36px; }
+section ul li {
+  height: 30px;
+  margin-bottom: 36px;
+}
+section ul li label { cursor: pointer;}
+section ul li input { margin-right: 10px;}
+section ul li input[type=checkbox] {
+  position: relative;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  outline: none;
+}
+section ul li a {
+  outline: none;
+  color: black;
+}
+/* ----- agree_area end ----- */
+
+section.sign_up_scr_wrap .sign_up_area .sign_up_form button.sign_up_submit {
+  background-color: var(--main-color); 
+  margin-bottom: 150px;
+}
+section.sign_up_scr_wrap .sign_up_area .sign_up_form button.sign_up_submit:hover {
+  background-color: #5a4236;
+}

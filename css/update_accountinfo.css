@@ -1,0 +1,77 @@
+.mypage_changed p {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.update_accountinfo_table {
+  width: 800px;
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+  border-top: 1px solid #ccc;
+  margin-bottom: 50px;
+  font-size: 15px;
+}
+.update_accountinfo_table .contents {
+  padding: 20px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+}
+.update_accountinfo_table .contents .info_title {
+  margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: bolder;
+}
+.update_accountinfo_table .contents .content input{
+  border: none;
+  border-bottom: 1px solid lightgray;
+  width: 300px;
+  margin-left: 40px;
+  outline: none;
+}
+.update_accountinfo_table .contents .content td,
+.update_accountinfo_table .contents .content_div {
+  padding: 15px 0;
+}
+.update_accountinfo_table .contents .content .label {
+  color: red;
+  font-size: 13px;
+  margin-left: 20px;
+}
+.update_accountinfo_table .contents .find_postcode {
+  border-radius: 10px;
+  background-color: #E1C391;
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 25px;
+  cursor: pointer;
+}
+.update_accountinfo_table .contents .pw_info_table {
+  display: none;
+}
+.update_accountinfo_table .pw_info span {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+.update_accountinfo_table .pw_info span i {
+  font-size: 22px;
+  padding: 0 10px;
+  vertical-align: bottom;
+}
+
+button.member_info_update_submit {
+	width: 100px;
+	height: 30px;
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+    right: 0;
+    top: 0;
+}
+button.member_info_update_submit:hover {
+	cursor: pointer;
+	font-weight: bold;
+}

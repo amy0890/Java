@@ -1,0 +1,397 @@
+table.type09 {
+	width: 800px;
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+}
+
+table.type09 thead td {
+	padding: 5px;
+	vertical-align: top;
+	color: black;
+	border-bottom: 2px solid #3d3d3d;
+}
+
+table.type09 td {
+	padding: 8px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+}
+
+.mypage_changed p {
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.write_btn {
+	width: 100px;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 20px;
+	left: 720px;
+}
+
+.write_btn:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.save_btn {
+	width: 100px;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 330px;
+	left: 720px;
+}
+
+.save_btn:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.page_div {
+	position: relative;
+}
+
+.addbtn_box {
+	position: relative;
+}
+
+.add_btn {
+	width: 100px;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 10px;
+	left: 720px;
+}
+
+.add_btn:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.update_goods {
+	width: 50px;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 50px;
+	left: 720px;
+}
+
+.delete_goods {
+	width: 50px;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 50px;
+	left: 750px;
+}
+
+.update_goods:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.delete_goods:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.update_notice {
+	width: 50px;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 330px;
+	left: 750px;
+}
+
+.update_notice:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.btn_box {
+	position: relative;
+}
+
+.answer_qna {
+	width: 50px;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 10px;
+	left: 750px;
+}
+
+.answer_qna:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+input {
+	border: none;
+	width: 500px;
+}
+
+input:focus {
+	outline: none;
+}
+
+textarea {
+	border: none;
+	width: 700px;
+	height: 200px;
+	resize: none;
+}
+
+textarea:focus {
+	outline: none;
+	background-color: transparent;
+}
+
+input.file_del_btn {
+	width: 50px;
+	background-color: transparent;
+	border: none;
+}
+
+input.file_del_btn:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+input.file_add_btn {
+	width: 50px;
+	margin-left: 90px;
+	background-color: transparent;
+	border: none;
+}
+
+input.file_add_btn:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
+input.img_del_btn {
+	width: 100px;
+	margin-left: 90px;
+	background-color: transparent;
+	border: none;
+}
+
+input.img_del_btn:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+td.goodsinfo_tag {
+	width: 120px
+}
+
+div.goodsinfo_img_container {
+	width: 680px;
+	display: flex;
+	flex-flow: row wrap;
+}
+div.goodsinfo_img_box {
+	width: 330px;
+	padding: 5px;
+}
+
+div.goodsinfo_img_box img {
+	width: 100%;
+}
+div.items_update_img_box {
+	width: 500px;
+	max-height: 600px;
+	display: inline-block;
+	vertical-align: top;
+}
+div.items_update_img_box img {
+	width: 100%;
+}
+
+.member_tag {
+	width: 200px;
+}
+
+.memberinfo_tag {
+	width: 120px;
+}
+
+.goods_tag {
+	width: 200px;
+}
+
+.goods_short {
+	width: 100px;
+}
+
+.goods_middle {
+	width: 150px;
+}
+
+.order_tag {
+	width: 150px;
+}
+
+.order_long {
+	max-width: 400px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	cursor: pointer;
+}
+
+.order_short {
+	width: 100px;
+}
+
+.orderinfo_tag {
+	width: 130px;
+}
+
+.qnalist_tag {
+	width: 150px;
+}
+
+.qnalist_long {
+	max-width: 300px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	cursor: pointer;
+}
+
+.qnalist_short {
+	width: 80px;
+}
+
+.qnashow_tag {
+	width: 60px;
+}
+
+.notice_long {
+	max-width: 500px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	cursor: pointer;
+}
+
+.notice_tag {
+	width: 100px;
+}
+
+.noticeshow_tag {
+	width: 80px;
+}
+.write_review{
+	width: 70px;
+	margin-top:5px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: transparent;
+    border: 1px solid lightgray;
+	cursor:pointer;
+}
+.review_save{
+	width: 100px;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 10px;
+	left: 720px;
+}
+.review_save:hover{
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.repl_box {
+	position: relative;
+}
+.repl_delete_btn {
+	width: 50px;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 30px;
+	right: 10px;
+}
+.repl_delete_btn:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
+.repl_update_btn {
+	width: 50px;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	top: 30px;
+	right: 60px;
+}
+.repl_update_btn:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
+.repl_date {
+	position: absolute;
+	font-size: 12px;
+	top: 10px;
+	right: 10px;
+}
+.qna_repl_member_name {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+
+.cancel_btn{
+	width: 70px;
+	margin-top:11px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: transparent;
+    border: 1px solid lightgray;
+	cursor:pointer;
+}
+.ok_btn{
+	width: 70px;
+	margin-top:6px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: transparent;
+    border: 1px solid lightgray;
+	cursor:pointer;
+}
+
+.cancel_btn:hover{
+	background-color: lightgray;
+}
+.ok_btn:hover{
+	background-color: lightgray;
+}
+.orderinfo_box{
+	width:250px;
+	display:flex;
+	margin-left:550px;
+}
+.orderinfo_btn{
+	 background-color: transparent;
+	 font-size:15px;
+}
+.orderinfo_btn:hover{
+	font-weight: bold;
+	cursor:pointer;
+	
+}

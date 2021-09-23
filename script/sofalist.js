@@ -1,0 +1,10 @@
+ $(function(){
+        $(".bestitem").on('mouseenter',function(){
+            $(this).children(".imgbox").children(".firstimg").css("display","none");
+            $(this).children(".item_infobox").children(".itemradius").css("display","block");
+        });
+        $(".bestitem").on('mouseleave',function(){
+            $(this).children(".imgbox").children(".firstimg").css("display","block");
+            $(this).children(".item_infobox").children(".itemradius").css("display","none");
+        });
+ });

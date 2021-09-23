@@ -1,0 +1,51 @@
+.mypage_changed p{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.accountinfo_table{
+  width: 800px;
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+  border-top: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+.accountinfo_table td{
+  padding: 20px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.accountinfo_table .info_title {
+  margin-bottom: 10px;
+  font-size: 17px;
+  font-weight: bolder;
+}
+.accountinfo_table .info_content {
+  list-style: none;
+  padding: 15px 0;
+}
+.accountinfo_table .info_content li {
+  padding: 5px 0;
+}
+
+.accountbtn, .withdrawalbtn {
+  background-color: transparent;
+  border: none;				
+}
+.accountbtn:hover, .withdrawalbtn:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+.accountbtn{
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.withdrawalbtn {
+  position: absolute;
+  right: 0;
+}
+  
+
